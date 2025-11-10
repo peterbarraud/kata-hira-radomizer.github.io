@@ -1,5 +1,4 @@
 $(function() {
-    console.log( "ready!" );
     japaneseCharList = ['Vowels','K','S','T','N','H','M','Y','R','W','N'];
     let currentIndex = japaneseCharList.length;
 
@@ -20,9 +19,5 @@ $(function() {
             .addClass('char-style')
             .append(`<td>${japaneseCharList[currentIndex]}</td>`)
         );
-
-
-        console.log(japaneseCharList[currentIndex]);
     }
-
 });
